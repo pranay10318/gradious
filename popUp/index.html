@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal pop-up</title>
+    <link rel="stylesheet" href="./css/style.css"></link>
+    <script src="./js/pop.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>click here the button below for modal pop up</h1>
+      <button class="pop-up-btn" onclick="openPopup()">popup</button>
+
+      <div id="pop-box" class="pop-box">
+        <span style="float: right" onclick="closePopup()" class="close-btn">X</span>
+        <h1>hey!! this is your pop up</h1> 
+      </div>
+    </div>
+  </body>
+</html>

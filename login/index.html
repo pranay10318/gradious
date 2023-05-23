@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal pop-up</title>
+    <link rel="stylesheet" href="./css/style.css"></link>
+    <script src="./js/login.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      Login to your account
+      <button class="login-btn" onclick="openPopup()">Login</button>
+      <form class="container" name="login" method="post">
+        <div class="login-pop-up" id="login-pop-up">
+          <div class="heading">
+            <span>Login</span>
+            <span style="float: right" onclick="closePopup()" class="close-btn">x</span>
+            <hr/>
+          </div>
+          <div class="field">
+            <div for="email">Email address</div>
+            <input type="email" name="email" id="email" placeholder="Enter Email" class="login-input-field"/>
+            <div class="small-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="field">
+            <div for="password">Password</div>
+            <input type="password" name="password" id="password" placeholder="Password" class="login-input-field"/>
+          </div>
+          <div class="field">
+            <input type="checkbox"/> <span style="margin-left: 1%;" >remember me</span>
+          </div>
+          <div class="btns">
+            <button type="submit" class="last-btn">Sign-In</button>
+            <button type="reset" class="last-btn" onclick="closePopup()">Cancel</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

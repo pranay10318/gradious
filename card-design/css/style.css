@@ -1,0 +1,23 @@
+.child-container {
+    background-color: #ADD8E6;
+    float:left;
+    border: 2px solid;
+    height: 120px;
+    width: 22%;
+    padding: 10px;
+    margin-right: 1%;
+    text-align: center;
+    
+}
+#red:hover {
+    background-color: red;
+}
+#green:hover {
+    background-color: green;
+}
+#yellow:hover {
+    background-color: yellow;
+}
+#blue:hover {
+    background-color: blue;
+}

@@ -1,0 +1,21 @@
+.container {
+    margin: 5%;
+}
+.pop-box {
+    text-align: center;
+    display: none;
+    border-radius: 3rem;
+    width: 50%;
+    height: 40%;
+    margin: 10%;
+    padding: 5%;
+    background-color: aqua;
+}
+.close-btn {
+    cursor: pointer;
+}
+.pop-up-btn {
+    cursor: pointer;
+    border-radius: 1rem;
+    width: max-content;
+}

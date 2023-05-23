@@ -1,0 +1,60 @@
+.container {
+    
+    margin: 5%;
+    /* text-align: center; */
+
+}
+.login-pop-up {
+    /* text-align: center; */
+    display: none;
+    border-radius: 1rem;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    /* width: 200px; */
+    width: 30%;
+    /* justify-content: center; */
+    height: 40%;
+    /* margin: %; */
+    padding: 3%;
+    background-color: orange;
+}
+.field {
+    margin-top: 1rem;
+}
+.heading {
+    font-size: larger;
+    font-style: oblique;
+    font-weight: 800;
+}
+.small-text {
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+}
+.close-btn {
+    cursor: pointer;
+    font-style: normal;
+    font-size: smaller;
+    font-weight: lighter;
+}
+.last-btn {
+    float: right;
+}
+input[type=email], input[type=password] {
+    width: 100%;
+    margin-right: 200px;
+}
+
+.btns {
+    padding: 1%;
+}
+
+/* .container > .login-pop-up {
+} */
+/* .login-pop-up-btn {
+    cursor: pointer;
+    border-radius: 1rem;
+    width: max-content;
+} */
